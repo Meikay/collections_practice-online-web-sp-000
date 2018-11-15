@@ -34,4 +34,5 @@ end
 def add_s(arr)
   if i != 1
     arr.each_with_index.collect{|word, i| word + "s"}
+  end
 end
