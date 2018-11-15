@@ -36,5 +36,6 @@ def add_s(arr)
       if i != 1
       word + "s"
       end
+      arr[1]
     end
 end
