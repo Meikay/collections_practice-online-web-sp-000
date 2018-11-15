@@ -33,7 +33,7 @@ end
 
 def add_s(arr)
     arr.each_with_index.collect do |word, i|
-      word + "s"
       if i != 1
-  end
+      word + "s"
+      end
 end
