@@ -33,9 +33,9 @@ end
 
 def add_s(arr)
   arr.each_with_index.collect do |word, i|
-    if i != 1
+    if i = 1
+      word
     else word + "s"
     end
   end
-  word
 end
